@@ -1,0 +1,166 @@
+****** Basic Css *************/
+body{
+  margin: 0;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 80% !important;
+}
+/********** Basic Css end *************/
+/**************************************/
+/********** Re-useable Css *************/
+.re-background{
+  background: #56ab2f;
+}
+.active{
+  color: #56ab2f !important;
+}
+/********** Re-useable Css end *************/
+/*******************************************/
+
+/************** Topbar Css ****************/
+.topbar{}
+.topbar ul{
+  margin: 0;
+}
+.topbar ul:nth-child(2) li:nth-child(1)::after{
+  content: ' | ';
+  color: #4a9e23;
+  font-size: 18px;
+  font-weight: normal;
+}
+.topbar ul li a{
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.topbar ul li a i{
+  font-size: 13px;
+}
+/************** Topbar Css end ****************/
+/**********************************************/
+
+/************** Navbar start ****************/
+.navbar{
+  z-index: 9999;
+  opacity: .8;
+}
+.navbar ul li a{}
+.navbar ul li a:hover{
+  color: #56ab2f !important;
+}
+.navbar ul li a:focus{
+  color: #56ab2f !important;
+}
+.nav-link sup{
+  font-size: 8px;
+  top: -10px;
+  left: -9px;
+}
+/************** Navbar end ***************/
+/*****************************************/
+
+/************** About start ****************/
+.about{
+  padding: 150px 0;
+  background-image: url(img/02_About.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: #0000002b;
+  z-index: 1;
+}
+.overlay h4{
+  position: relative;
+  top: 45%;
+}
+.breadcrumb{
+  position: relative;
+  left: 45%;
+  top: 132px;
+}
+.breadcrumb a{
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/************** About end ****************/
+/*****************************************/
+
+/************************* Get css *************************/
+.get ul li a{
+  width: 25px;
+  height: auto;
+  display: inline-block;
+  margin: 0 5px;
+  font-size: 12px;
+  background: #56ab2f;
+  border-radius: 50%;
+  color: white;
+  transition: .4s;
+  text-align: center;
+  padding: 3px 5px;
+}
+.hover:hover{
+  background: #56ab2f !important;
+  color: white !important;
+}
+/************************* Get css end *************************/
+/***************************************************************/
+
+/**************** Footer-one css *******************/
+.footer-onn{
+  background: #1E1D1D;
+}
+.footer-one ul li a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin: 3px 0;
+  display: block;
+}
+.footer-one ul li a i{
+  color: white !important;
+  margin-right: 4px;
+  color: #56ab2f !important;
+}
+/**************** Footer-one css end ***************/
+/***************************************************/
+
+/***************** Footer css start ****************/
+.bord{
+  border-top: 3px solid #56ab2f;
+}
+.footer{
+  overflow: hidden;
+}
+.footer ul li a{
+  line-height: 38px;
+  padding: 10px;
+  color: white;
+}
+.footer ul li a:hover i{
+  color: #56ab2f;
+}
+
+.footer ul li{
+  height: 40px;
+  width: 40px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+/***************** Footer css end ****************/
+/**********************************************
